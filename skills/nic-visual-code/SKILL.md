@@ -8,7 +8,7 @@ description: >-
   favicon, logo, 应用图标, SVG插图, Mermaid流程图, nic-visual-code, 16:9,
   浅色主题, vector illustration, or git-friendly graphics. Do not use for AI
   photoreal / style-heavy bitmaps — hand off to nic-image-gen.
-version: 0.1.3
+version: 0.1.4
 ---
 
 # nic-visual-code — Code-based visuals (no image API)
@@ -147,6 +147,15 @@ Rules:
    - SVG → open as file or embed in a tiny HTML wrapper only if needed for preview.
    - Mermaid → leave in Markdown/`.mmd`; render depends on the host viewer (GitHub, IDE preview). Do not invent an image API to rasterize unless the user explicitly asks for a bitmap (then consider `nic-image-gen` or host export — do not silently call image APIs from this skill).
 7. Report: format + theme + size/ratio + workspace-relative path.
+8. **If embedding into README / docs on GitHub** — do **not** use bare `![alt](file.svg)` for large canvases (GitHub uses intrinsic SVG pixels and will look huge). Use HTML:
+
+```html
+<img src="./docs/…/icon.svg" alt="…" width="128" />
+<img src="./docs/…/diagram.svg" alt="…" width="640" />
+<img src="./docs/…/banner.svg" alt="…" width="720" />
+```
+
+Defaults: icon `128`, diagram `640`, banner/promo `720`.
 
 ## Quality bar
 

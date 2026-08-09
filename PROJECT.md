@@ -23,6 +23,7 @@ Also includes visual helpers: **`nic-image-gen`** (host AI bitmaps) and **`nic-v
 4. **Dogfood first** — use daily before open-sourcing
 5. **On-demand install** — document single-skill install; never push full-repo install as default
 6. **No private leakage** — skills must not contain real home paths, usernames-as-paths, emails, tokens, API keys, or personal machine details; examples use placeholders only
+7. **README media sizes** — GitHub renders SVG/PNG at intrinsic size; always embed with HTML `<img width="…">`. Defaults: icons `128`, diagrams `640`, banners/promo `720`. Never bare `![…](*.svg)` for large canvases.
 
 ## Initial skill candidates (priority)
 
