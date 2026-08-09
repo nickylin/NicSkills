@@ -6,14 +6,21 @@ description: >-
   nic-skills-artifacts/image-gen/ (brand-scoped; avoids generic images/output folders).
   Use when the user asks to generate/create/draw an image, 生图, 生成图片,
   nic-image-gen, icon/illustration/banner mockup as a bitmap file in the workspace.
-  Do not use for editing repo-native SVG/vector/code graphics, or when the user
-  asks for a third-party API provider (not in v0.1).
-version: 0.1.1
+  Do not use for Mermaid/SVG/HTML code visuals or “不用生图API” requests — hand
+  off to nic-visual-code. Do not invent third-party image APIs (not in v0.1).
+version: 0.1.2
 ---
 
 # nic-image-gen — Built-in image generation router
 
 Cross-host **routing + workspace placement** for AI bitmap images. Instruction-only: no scripts. Does **not** reimplement Codex `$imagegen` or call third-party APIs in v0.1.
+
+## Related skill
+
+| Need | Skill |
+|------|--------|
+| AI bitmap / 宣传插画 / atmosphere | **this skill** |
+| Editable Mermaid / SVG / HTML（不用生图 API） | [`nic-visual-code`](../nic-visual-code/) |
 
 ## Privacy (required)
 
