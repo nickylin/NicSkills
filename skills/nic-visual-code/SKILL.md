@@ -38,6 +38,7 @@ Rendered text must stay readable. **Never ship mojibake or broken glyphs** (e.g.
 |------|--------|
 | AI bitmap / 宣传插画 / atmosphere | [`nic-image-gen`](../nic-image-gen/) |
 | Editable diagram / SVG art / **icon** / HTML visual | **this skill** |
+| Full conversation → report (HTML/Canvas) | [`nic-visual-report`](../nic-visual-report/) |
 
 If the user clearly wants photoreal style or host image models, switch to `nic-image-gen`.
 

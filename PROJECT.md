@@ -13,7 +13,7 @@
 
 **Developer tooling for Agent workflows** — small, script-first skills that remove friction when coding with Cursor / Claude Code / Codex.
 
-Also includes visual helpers: **`nic-image-gen`** (host AI bitmaps) and **`nic-visual-code`** (Mermaid/SVG/HTML, no image API), both writing under brand-scoped `nic-skills-artifacts/`.
+Also includes visual helpers: **`nic-image-gen`** (host AI bitmaps), **`nic-visual-code`** (Mermaid/SVG/HTML/icons), and **`nic-visual-report`** (conversation → HTML/Canvas report), under brand-scoped `nic-skills-artifacts/` (Canvas files use Cursor’s canvases dir).
 
 ## Design principles
 
@@ -30,10 +30,11 @@ Also includes visual helpers: **`nic-image-gen`** (host AI bitmaps) and **`nic-v
 1. **`nic-html-preview`** — serve local HTML over localhost; adaptive open (Cursor → browser MCP → system browser) *(v0.2)*
 2. **`nic-image-gen`** — Cursor `GenerateImage` / Codex `$imagegen` router → `nic-skills-artifacts/image-gen/` *(v0.1)*
 3. **`nic-visual-code`** — Mermaid / SVG / HTML visuals + icons, no image API → `nic-skills-artifacts/visual-code/` *(v0.1)*
-4. `nic-screenshot` — capture desktop / window / region when browser tools are insufficient
-5. `nic-port-check` — find free ports / diagnose "port already in use"
-6. `nic-gh-pr-ready` — status + diff + CI summary before opening a PR
-7. `nic-env-doctor` — quick Node/Python/Git/tooling health check for a workspace
+4. **`nic-visual-report`** — conversation → visual report (HTML default / Canvas optional) *(v0.1)*
+5. `nic-screenshot` — capture desktop / window / region when browser tools are insufficient
+6. `nic-port-check` — find free ports / diagnose "port already in use"
+7. `nic-gh-pr-ready` — status + diff + CI summary before opening a PR
+8. `nic-env-doctor` — quick Node/Python/Git/tooling health check for a workspace
 
 ## Top pain points (dev)
 

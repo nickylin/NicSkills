@@ -15,6 +15,7 @@ Atomic Agent Skills for **developer tooling** — script-first, dogfood-first, i
 | [`nic-html-preview`](./skills/nic-html-preview/) | 0.2.1 | Serve local `.html` over localhost; open via Cursor / browser MCP / system browser (adaptive) |
 | [`nic-image-gen`](./skills/nic-image-gen/) | 0.1.2 | Route AI bitmap gen to Cursor `GenerateImage` or Codex `$imagegen` → `nic-skills-artifacts/image-gen/` |
 | [`nic-visual-code`](./skills/nic-visual-code/) | 0.1.4 | Mermaid / SVG / HTML visuals + icons (no image API); size/theme + no-mojibake → `nic-skills-artifacts/visual-code/` |
+| [`nic-visual-report`](./skills/nic-visual-report/) | 0.1.0 | Conversation → visual report (HTML default or Cursor Canvas): tests, comparisons, briefs |
 
 ## Featured: `nic-visual-code`
 
@@ -62,6 +63,7 @@ More detail: [`skills/nic-visual-code/SKILL.md`](./skills/nic-visual-code/SKILL.
 ln -sfn "$(pwd)/skills/nic-html-preview" ~/.cursor/skills/nic-html-preview
 ln -sfn "$(pwd)/skills/nic-image-gen" ~/.cursor/skills/nic-image-gen
 ln -sfn "$(pwd)/skills/nic-visual-code" ~/.cursor/skills/nic-visual-code
+ln -sfn "$(pwd)/skills/nic-visual-report" ~/.cursor/skills/nic-visual-report
 ```
 
 Or:
@@ -70,6 +72,7 @@ Or:
 npx skills add nickylin/NicSkills --skill nic-html-preview
 npx skills add nickylin/NicSkills --skill nic-image-gen
 npx skills add nickylin/NicSkills --skill nic-visual-code
+npx skills add nickylin/NicSkills --skill nic-visual-report
 ```
 
 Prefer **single-skill** install. Full-repo install loads more context than you need.
