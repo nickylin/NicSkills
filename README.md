@@ -56,6 +56,23 @@ npx skills add nickylin/NicSkills --skill nic-visual-code
 
 More detail: [`skills/nic-visual-code/SKILL.md`](./skills/nic-visual-code/SKILL.md)
 
+## Featured: `nic-visual-report`
+
+Turn the **current conversation** into a visual report — test results, solution outcomes, tech comparisons, or session briefs. Default **HTML**; optional **Cursor Canvas**.
+
+<img src="./docs/visual-report/nic-visual-report-promo.svg" alt="nic-visual-report promo" width="720" />
+
+| Mode | Deliverable |
+|------|-------------|
+| `html` (default) | `nic-skills-artifacts/visual-report/html/*.html` |
+| `canvas` | `.canvas.tsx` beside chat |
+
+```bash
+npx skills add nickylin/NicSkills --skill nic-visual-report
+```
+
+More detail: [`skills/nic-visual-report/SKILL.md`](./skills/nic-visual-report/SKILL.md)
+
 ## Install (local / dogfood)
 
 ```bash

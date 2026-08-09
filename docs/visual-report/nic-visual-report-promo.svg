@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">nic-visual-report promo</title>
+  <desc id="desc">Promo for conversation to HTML or Canvas visual reports.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f1419"/>
+      <stop offset="100%" stop-color="#152938"/>
+    </linearGradient>
+    <style type="text/css"><![CDATA[
+      .t { font-family: "PingFang SC", "Noto Sans SC", "Microsoft YaHei", "Segoe UI", Helvetica, Arial, sans-serif; }
+    ]]></style>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <circle cx="160" cy="100" r="200" fill="#1a2a3a" opacity="0.5"/>
+  <circle cx="1140" cy="620" r="220" fill="#1e3a2f" opacity="0.35"/>
+
+  <text class="t" x="80" y="120" fill="#5eb1ff" font-size="20" letter-spacing="3">NICSKILLS SKILL</text>
+  <text class="t" x="80" y="190" fill="#e7ecf1" font-size="58" font-weight="750">nic-visual-report</text>
+  <text class="t" x="80" y="245" fill="#8aa0b5" font-size="24">Conversation to visual report - HTML or Canvas</text>
+
+  <rect x="80" y="320" width="340" height="140" rx="18" fill="#1a2a3a" stroke="#5eb1ff" stroke-width="2"/>
+  <text class="t" x="250" y="380" text-anchor="middle" fill="#e7ecf1" font-size="26" font-weight="700">HTML</text>
+  <text class="t" x="250" y="420" text-anchor="middle" fill="#8aa0b5" font-size="16">default shareable page</text>
+
+  <rect x="460" y="320" width="340" height="140" rx="18" fill="#1a2a3a" stroke="#5eb1ff" stroke-width="2"/>
+  <text class="t" x="630" y="380" text-anchor="middle" fill="#e7ecf1" font-size="26" font-weight="700">Canvas</text>
+  <text class="t" x="630" y="420" text-anchor="middle" fill="#8aa0b5" font-size="16">interactive beside chat</text>
+
+  <rect x="840" y="320" width="360" height="140" rx="18" fill="#3d9cf0"/>
+  <text class="t" x="1020" y="380" text-anchor="middle" fill="#0f1419" font-size="26" font-weight="750">Reports</text>
+  <text class="t" x="1020" y="420" text-anchor="middle" fill="#0f1419" font-size="16">test / compare / brief</text>
+
+  <text class="t" x="80" y="560" fill="#8aa0b5" font-size="18">Pull facts from the chat - do not invent metrics</text>
+  <text class="t" x="80" y="600" fill="#8aa0b5" font-size="18">Optional compose: nic-visual-code + nic-html-preview</text>
+  <text class="t" x="80" y="660" fill="#6f879c" font-size="15">UTF-8 safe - brand output dir - README promo required on release</text>
+</svg>

@@ -1,0 +1,38 @@
+---
+description: When publishing a new skill, add a README feature promo visual
+alwaysApply: true
+---
+
+# New skill → README promo visual (required)
+
+Whenever you **add or publish** a new skill under `skills/`, treat README marketing assets as part of the same release — not a follow-up.
+
+## Checklist (before commit/push)
+
+1. **Ship the skill** — `skills/<name>/SKILL.md` (+ scripts only if needed).
+2. **Create a feature promo visual** for that skill (prefer `nic-visual-code`: SVG/HTML; AI bitmap only if intentionally atmospheric via `nic-image-gen`).
+3. **Commit the visual under** `docs/<skill-short-name>/` or `docs/promo/` (never rely on gitignored `nic-skills-artifacts/` for README).
+4. **Update `README.md`**
+   - Add/update the Skills table row.
+   - Add a short **Featured** (or per-skill) section: 1–3 sentence capability blurb + install snippet + example image(s).
+5. **Embed with constrained width** (GitHub uses intrinsic SVG size otherwise):
+
+```html
+<img src="./docs/.../skill-promo.svg" alt="..." width="720" />
+<img src="./docs/.../skill-diagram.svg" alt="..." width="640" />
+<img src="./docs/.../skill-icon.svg" alt="..." width="128" />
+```
+
+Defaults: banner/promo `720`, diagram `640`, icon `128`.
+
+## Do / Don't
+
+| Do | Don't |
+|----|--------|
+| One clear promo that shows what the skill does | Ship skill with table-only README mention |
+| UTF-8 / no mojibake; brand-safe paths in docs | Link README to `nic-skills-artifacts/` (ignored) |
+| Keep section scannable | Dump huge unscaled SVGs |
+
+## Reference
+
+Existing pattern: Featured `nic-visual-code` section + `docs/visual-code/*` in `README.md`.
