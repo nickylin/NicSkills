@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Cursor 3.11 July 2026 features</title>
+  <desc id="desc">Four feature cards for Side Chats, Transcript Search, Pickers, and Cloud Agent Hooks.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f1419"/>
+      <stop offset="100%" stop-color="#15202b"/>
+    </linearGradient>
+    <style type="text/css"><![CDATA[
+      .t { font-family: "PingFang SC", "Noto Sans SC", "Microsoft YaHei", "Segoe UI", Helvetica, Arial, sans-serif; }
+    ]]></style>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <circle cx="160" cy="80" r="180" fill="#1a2a3a" opacity="0.5"/>
+  <circle cx="1140" cy="640" r="200" fill="#1e3a2f" opacity="0.35"/>
+  <text class="t" x="64" y="78" fill="#e7ecf1" font-size="40" font-weight="700">Cursor 3.11</text>
+  <text class="t" x="64" y="114" fill="#8aa0b5" font-size="18">2026-07-10 新功能速览</text>
+  <text class="t" x="1216" y="78" text-anchor="end" fill="#5eb1ff" font-size="16">dark-dev / 16:9</text>
+  <rect x="64" y="170" width="560" height="210" rx="16" fill="#1a2a3a" stroke="#5eb1ff" stroke-width="1.5"/>
+  <text class="t" x="92" y="212" fill="#3d9cf0" font-size="13" letter-spacing="1">01 SIDE CHATS</text>
+  <text class="t" x="92" y="250" fill="#e7ecf1" font-size="26" font-weight="700">侧边对话</text>
+  <text class="t" x="92" y="286" fill="#8aa0b5" font-size="16">主线程旁开持久支线，不打断上下文</text>
+  <text class="t" x="92" y="318" fill="#8aa0b5" font-size="16">/side  /btw  或面板加号；可用 @ 拉回主对话</text>
+  <rect x="656" y="170" width="560" height="210" rx="16" fill="#1a2a3a" stroke="#5eb1ff" stroke-width="1.5"/>
+  <text class="t" x="684" y="212" fill="#3d9cf0" font-size="13" letter-spacing="1">02 SEARCH</text>
+  <text class="t" x="684" y="250" fill="#e7ecf1" font-size="26" font-weight="700">会话检索</text>
+  <text class="t" x="684" y="286" fill="#8aa0b5" font-size="16">本地索引历史 Agent transcripts</text>
+  <text class="t" x="684" y="318" fill="#8aa0b5" font-size="16">Agents Window: Cmd+K; in-chat: Cmd+F</text>
+  <rect x="64" y="410" width="560" height="210" rx="16" fill="#1a2a3a" stroke="#5eb1ff" stroke-width="1.5"/>
+  <text class="t" x="92" y="452" fill="#3d9cf0" font-size="13" letter-spacing="1">03 PICKERS</text>
+  <text class="t" x="92" y="490" fill="#e7ecf1" font-size="26" font-weight="700">项目仓库选择器</text>
+  <text class="t" x="92" y="526" fill="#8aa0b5" font-size="16">按位置筛选: Computer / Cloud / Remote</text>
+  <text class="t" x="92" y="558" fill="#8aa0b5" font-size="16">选择器内连接 GitHub / GitLab / Azure DevOps</text>
+  <rect x="656" y="410" width="560" height="210" rx="16" fill="#1a2a3a" stroke="#3d9cf0" stroke-width="2"/>
+  <text class="t" x="684" y="452" fill="#3d9cf0" font-size="13" letter-spacing="1">04 HOOKS</text>
+  <text class="t" x="684" y="490" fill="#e7ecf1" font-size="26" font-weight="700">Cloud Agent Hooks</text>
+  <text class="t" x="684" y="526" fill="#8aa0b5" font-size="16">观察控制 prompt / thought / response</text>
+  <text class="t" x="684" y="558" fill="#8aa0b5" font-size="16">beforeSubmitPrompt / subagentStart ...</text>
+  <text class="t" x="64" y="680" fill="#6f879c" font-size="14">via nic-visual-code | no image API | source: cursor.com/changelog</text>
+</svg>

@@ -16,6 +16,45 @@ Atomic Agent Skills for **developer tooling** — script-first, dogfood-first, i
 | [`nic-image-gen`](./skills/nic-image-gen/) | 0.1.2 | Route AI bitmap gen to Cursor `GenerateImage` or Codex `$imagegen` → `nic-skills-artifacts/image-gen/` |
 | [`nic-visual-code`](./skills/nic-visual-code/) | 0.1.3 | Mermaid / SVG / HTML visuals + icons (no image API); size/theme + no-mojibake → `nic-skills-artifacts/visual-code/` |
 
+## Featured: `nic-visual-code`
+
+Code-based visuals **without** image-generation APIs — editable, UTF-8 safe, git-friendly.
+
+![nic-visual-code promo](./docs/visual-code/nic-visual-code-promo.svg)
+
+**What it can do**
+
+| Capability | Default | Notes |
+|------------|---------|--------|
+| Mermaid diagrams | structural charts | flow / architecture / sequence |
+| SVG illustrations | vectors | posters, maps, feature boards |
+| SVG icons | `1:1` · 1080×1080 | app icon / favicon / monogram |
+| HTML one-pagers | `16:9` slides | preview with [`nic-html-preview`](./skills/nic-html-preview/) |
+| Themes | `dark-dev` | also `light-clean` / `mono` / `brand` |
+| Sizes | `16:9` or `1:1` | also `9:16` / `og` / custom `WxH` |
+
+Install:
+
+```bash
+npx skills add nickylin/NicSkills --skill nic-visual-code
+```
+
+### Examples
+
+**Icon** (`1:1` SVG)
+
+![NicSkills icon](./docs/visual-code/nic-skills-icon.svg)
+
+**Skill map** (SVG diagram)
+
+![NicSkills skill map](./docs/visual-code/nicskills-skill-map.svg)
+
+**Feature board** (Cursor 3.11 / July 2026, `16:9`)
+
+![Cursor July 2026 features](./docs/visual-code/cursor-july-2026-features.svg)
+
+More detail: [`skills/nic-visual-code/SKILL.md`](./skills/nic-visual-code/SKILL.md)
+
 ## Install (local / dogfood)
 
 ```bash

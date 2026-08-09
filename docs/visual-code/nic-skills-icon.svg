@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080" role="img" aria-labelledby="title desc">
+  <title id="title">NicSkills icon</title>
+  <desc id="desc">Square app icon for NicSkills with letter N and modular skill blocks.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f1419"/>
+      <stop offset="55%" stop-color="#152938"/>
+      <stop offset="100%" stop-color="#0f1419"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5eb1ff"/>
+      <stop offset="100%" stop-color="#3d9cf0"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+    <style type="text/css"><![CDATA[
+      .t { font-family: "PingFang SC", "Noto Sans SC", "Microsoft YaHei", "Segoe UI", Helvetica, Arial, sans-serif; }
+    ]]></style>
+  </defs>
+
+  <!-- app tile -->
+  <rect width="1080" height="1080" rx="240" fill="url(#bg)"/>
+
+  <!-- modular skill tiles -->
+  <g filter="url(#soft)">
+    <rect x="250" y="250" width="250" height="250" rx="56" fill="#1a2a3a" stroke="#5eb1ff" stroke-width="8"/>
+    <rect x="580" y="250" width="250" height="250" rx="56" fill="#1a2a3a" stroke="#3d9cf0" stroke-width="8"/>
+    <rect x="250" y="580" width="250" height="250" rx="56" fill="#1a2a3a" stroke="#3d9cf0" stroke-width="8"/>
+    <rect x="580" y="580" width="250" height="250" rx="56" fill="url(#accent)"/>
+  </g>
+
+  <!-- monogram N on accent tile -->
+  <text class="t" x="705" y="755" text-anchor="middle" fill="#0f1419" font-size="170" font-weight="750">N</text>
+
+  <!-- tiny brand mark -->
+  <text class="t" x="540" y="980" text-anchor="middle" fill="#8aa0b5" font-size="42" font-weight="600" letter-spacing="4">NicSkills</text>
+</svg>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560" role="img" aria-labelledby="title desc">
+  <title id="title">NicSkills skill relationship map</title>
+  <desc id="desc">NicSkills monorepo with nic-html-preview, nic-image-gen, and nic-visual-code, plus hand-off links between visual skills.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f1419"/>
+      <stop offset="55%" stop-color="#15202b"/>
+      <stop offset="100%" stop-color="#0f1419"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#5eb1ff"/>
+    </marker>
+    <marker id="arrowMuted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#7a93a8"/>
+    </marker>
+    <style type="text/css"><![CDATA[
+      .t {
+        font-family: "PingFang SC", "Noto Sans SC", "Microsoft YaHei", "Segoe UI", Helvetica, Arial, sans-serif;
+      }
+    ]]></style>
+  </defs>
+
+  <rect width="960" height="560" fill="url(#bg)"/>
+  <circle cx="120" cy="80" r="140" fill="#1a2a3a" opacity="0.55"/>
+  <circle cx="860" cy="480" r="160" fill="#1e3a2f" opacity="0.35"/>
+
+  <text class="t" x="48" y="52" fill="#e7ecf1" font-size="28" font-weight="700" letter-spacing="-0.5">NicSkills</text>
+  <text class="t" x="48" y="78" fill="#8aa0b5" font-size="14">skill relationship - SVG via nic-visual-code</text>
+
+  <g filter="url(#soft)">
+    <rect x="330" y="110" width="300" height="64" rx="14" fill="#0f1419" stroke="#3d9cf0" stroke-width="2"/>
+    <text class="t" x="480" y="140" text-anchor="middle" fill="#e7ecf1" font-size="18" font-weight="700">NicSkills monorepo</text>
+    <text class="t" x="480" y="160" text-anchor="middle" fill="#8aa0b5" font-size="12">atomic agent skills</text>
+  </g>
+
+  <path d="M400 174 V210 H180 V248" fill="none" stroke="#5eb1ff" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M480 174 V248" fill="none" stroke="#5eb1ff" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M560 174 V210 H780 V248" fill="none" stroke="#5eb1ff" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <text class="t" x="180" y="236" text-anchor="middle" fill="#6f879c" font-size="11" letter-spacing="1">PREVIEW</text>
+
+  <g filter="url(#soft)">
+    <rect x="70" y="250" width="220" height="88" rx="14" fill="#1a2a3a" stroke="#5eb1ff" stroke-width="1.5"/>
+    <text class="t" x="180" y="286" text-anchor="middle" fill="#e7ecf1" font-size="16" font-weight="700">nic-html-preview</text>
+    <text class="t" x="180" y="310" text-anchor="middle" fill="#8aa0b5" font-size="12">localhost to browser ladder</text>
+  </g>
+
+  <text class="t" x="630" y="236" text-anchor="middle" fill="#6f879c" font-size="11" letter-spacing="1">VISUALS</text>
+
+  <g filter="url(#soft)">
+    <rect x="370" y="250" width="220" height="88" rx="14" fill="#1a2a3a" stroke="#5eb1ff" stroke-width="1.5"/>
+    <text class="t" x="480" y="286" text-anchor="middle" fill="#e7ecf1" font-size="16" font-weight="700">nic-image-gen</text>
+    <text class="t" x="480" y="310" text-anchor="middle" fill="#8aa0b5" font-size="12">AI bitmap / Cursor / Codex</text>
+  </g>
+
+  <g filter="url(#soft)">
+    <rect x="670" y="250" width="220" height="88" rx="14" fill="#1a2a3a" stroke="#3d9cf0" stroke-width="2"/>
+    <text class="t" x="780" y="286" text-anchor="middle" fill="#e7ecf1" font-size="16" font-weight="700">nic-visual-code</text>
+    <text class="t" x="780" y="310" text-anchor="middle" fill="#8aa0b5" font-size="12">Mermaid / SVG / HTML</text>
+  </g>
+
+  <path d="M590 294 H668" fill="none" stroke="#7a93a8" stroke-width="1.75" stroke-dasharray="6 5" marker-end="url(#arrowMuted)"/>
+  <path d="M670 318 C620 360, 540 360, 490 338" fill="none" stroke="#7a93a8" stroke-width="1.75" stroke-dasharray="6 5" marker-end="url(#arrowMuted)"/>
+  <path d="M670 280 C520 220, 320 220, 290 280" fill="none" stroke="#3d9cf0" stroke-width="1.75" marker-end="url(#arrow)"/>
+
+  <text class="t" x="620" y="282" fill="#9eb3c6" font-size="11">hand off</text>
+  <text class="t" x="560" y="370" fill="#9eb3c6" font-size="11">AI bitmaps / code visuals</text>
+  <text class="t" x="300" y="230" fill="#5eb1ff" font-size="11">HTML preview</text>
+
+  <text class="t" x="48" y="520" fill="#6f879c" font-size="12">no image API / editable vector</text>
+</svg>
