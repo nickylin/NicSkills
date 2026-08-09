@@ -13,7 +13,7 @@
 
 **Developer tooling for Agent workflows** — small, script-first skills that remove friction when coding with Cursor / Claude Code / Codex.
 
-Not (yet): content creation, social publishing, or image pipelines. Those can come after the dev-tools core is solid.
+Also includes a thin **built-in image router** (`nic-image-gen`) that delegates to Cursor/Codex native tools and parks files under a brand-scoped artifact folder.
 
 ## Design principles
 
@@ -27,10 +27,11 @@ Not (yet): content creation, social publishing, or image pipelines. Those can co
 ## Initial skill candidates (priority)
 
 1. **`nic-html-preview`** — serve local HTML over localhost; adaptive open (Cursor → browser MCP → system browser) *(v0.2)*
-2. `nic-screenshot` — capture desktop / window / region when browser tools are insufficient
-3. `nic-port-check` — find free ports / diagnose "port already in use"
-4. `nic-gh-pr-ready` — status + diff + CI summary before opening a PR
-5. `nic-env-doctor` — quick Node/Python/Git/tooling health check for a workspace
+2. **`nic-image-gen`** — Cursor `GenerateImage` / Codex `$imagegen` router → `nic-skills-artifacts/image-gen/` *(v0.1)*
+3. `nic-screenshot` — capture desktop / window / region when browser tools are insufficient
+4. `nic-port-check` — find free ports / diagnose "port already in use"
+5. `nic-gh-pr-ready` — status + diff + CI summary before opening a PR
+6. `nic-env-doctor` — quick Node/Python/Git/tooling health check for a workspace
 
 ## Top pain points (dev)
 
