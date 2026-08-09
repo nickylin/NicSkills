@@ -1,0 +1,18 @@
+{
+  "name": "nic-skills",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Nic's atomic Agent Skills for developer tooling (Cursor / Claude Code / Codex)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nickylin/NicSkills.git"
+  },
+  "keywords": [
+    "agent-skills",
+    "cursor",
+    "claude-code",
+    "codex",
+    "nic-skills"
+  ]
+}
