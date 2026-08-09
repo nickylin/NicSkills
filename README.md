@@ -4,9 +4,9 @@ Atomic Agent Skills for **developer tooling** — script-first, dogfood-first, i
 
 > Prefix: `nic-` · Positioning: [PROJECT.md](./PROJECT.md)
 
-![NicSkills promo](./docs/promo/nicskills-promo.png)
+<img src="./docs/promo/nicskills-promo.png" alt="NicSkills promo" width="720" />
 
-![NicSkills features](./docs/promo/nicskills-features.png)
+<img src="./docs/promo/nicskills-features.png" alt="NicSkills features" width="720" />
 
 ## Skills
 
@@ -20,7 +20,7 @@ Atomic Agent Skills for **developer tooling** — script-first, dogfood-first, i
 
 Code-based visuals **without** image-generation APIs — editable, UTF-8 safe, git-friendly.
 
-![nic-visual-code promo](./docs/visual-code/nic-visual-code-promo.svg)
+<img src="./docs/visual-code/nic-visual-code-promo.svg" alt="nic-visual-code promo" width="720" />
 
 **What it can do**
 
@@ -43,15 +43,15 @@ npx skills add nickylin/NicSkills --skill nic-visual-code
 
 **Icon** (`1:1` SVG)
 
-![NicSkills icon](./docs/visual-code/nic-skills-icon.svg)
+<img src="./docs/visual-code/nic-skills-icon.svg" alt="NicSkills icon" width="128" />
 
 **Skill map** (SVG diagram)
 
-![NicSkills skill map](./docs/visual-code/nicskills-skill-map.svg)
+<img src="./docs/visual-code/nicskills-skill-map.svg" alt="NicSkills skill map" width="640" />
 
 **Feature board** (Cursor 3.11 / July 2026, `16:9`)
 
-![Cursor July 2026 features](./docs/visual-code/cursor-july-2026-features.svg)
+<img src="./docs/visual-code/cursor-july-2026-features.svg" alt="Cursor July 2026 features" width="720" />
 
 More detail: [`skills/nic-visual-code/SKILL.md`](./skills/nic-visual-code/SKILL.md)
 
