@@ -6,8 +6,8 @@
 |------|--------|
 | Brand | NicSkills |
 | Skill prefix | `nic-` |
-| GitHub | `nickylin/NicSkills` (planned) |
-| Install (later) | `npx skills add nickylin/NicSkills --skill nic-xxx` |
+| GitHub | [nickylin/NicSkills](https://github.com/nickylin/NicSkills) |
+| Install | `npx skills add nickylin/NicSkills --skill nic-xxx` |
 
 ## Core scenario (v1)
 
@@ -39,13 +39,3 @@ Not (yet): content creation, social publishing, or image pipelines. Those can co
 3. Screenshots / visual checks need a repeatable agent workflow
 4. Port conflicts waste minutes across projects
 5. PR prep is a repetitive git/gh ritual
-
-## Phase status
-
-- [x] Prefix + core scenario decided
-- [x] Top pain points listed
-- [x] First skill: `nic-html-preview` shipped in-repo
-- [ ] Local dogfood (3–5 real uses)
-- [x] Public GitHub repo: `nickylin/NicSkills`
-- [ ] Retire personal legacy `open-local-html` skill after dogfood OK
-- [x] Keep local `SKILLS-PLAN.md` gitignored (not published)
