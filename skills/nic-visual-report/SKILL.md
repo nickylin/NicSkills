@@ -7,9 +7,10 @@ description: >-
   (.canvas.tsx). Use when the user wants 可视化报告, 对话总结可视化,
   测试报告, 方案对比, 技术方案对比, 结果汇报, nic-visual-report, visual
   report, HTML report, or canvas report. Prefer this over dumping long markdown
-  tables when a standalone report artifact is needed. Do not use for pure
+  tables when a standalone report artifact is needed. Report language follows the
+  user's conversation language unless they specify otherwise. Do not use for pure
   icon/diagram-only asks (nic-visual-code) or AI photoreal images (nic-image-gen).
-version: 0.1.0
+version: 0.1.1
 ---
 
 # nic-visual-report — Visualize conversation into a report
@@ -54,7 +55,21 @@ Composition is optional. This skill can generate a complete HTML report alone (i
 
 - Never put secrets, tokens, API keys, private home paths, or credentials into the report.
 - Prefer workspace-relative paths in the report body.
-- Do not invent metrics or test results — only use facts from the conversation / user files. If data is missing, omit the section or mark **Unknown** (do not fabricate).
+- Do not invent metrics or test results — only use facts from the conversation / user files. If data is missing, omit the section or mark a localized “unknown” label (do not fabricate).
+
+## Language (required)
+
+Match the **user's conversation language** for the report UI and prose.
+
+1. **Detect** from the latest user messages / dominant language in this thread (not from the skill author’s language).
+2. **Honor explicit overrides** — e.g. `用英文输出` / `in Chinese` / `中英双语`.
+3. **Default**
+   - Mostly Chinese chat → Chinese headings, summary, tables, footer.
+   - Mostly English chat → English throughout.
+   - Mixed thread → follow the **latest user instruction**; if still mixed, use the language of the request that triggered this skill.
+4. **Keep as-is (do not translate)** — skill names (`nic-visual-report`), code identifiers, file paths, product names (Cursor, GitHub), and user-quoted proper nouns.
+5. **Missing data labels** — localize too (`未知` / `Unknown` / etc.), never invent facts.
+6. **HTML** — set `<html lang="zh-CN">` or `lang="en">` (or other) to match the chosen language.
 
 ## Encoding & text (required)
 
@@ -86,8 +101,8 @@ nic-skills-artifacts/visual-report/html/
 ## Workflow
 
 1. **Collect** — From the current conversation (and any paths the user cited), extract goals, facts, options, numbers, decisions, risks, actions. Do not pad with guesses.
-2. **Choose** — `mode` (html/canvas) + `report type` + theme (`dark-dev` default for HTML; Canvas uses host theme tokens).
-3. **Outline** — Build a tight section list (see types above). Drop empty sections.
+2. **Choose** — `mode` (html/canvas) + `report type` + **language** (follow user context) + theme (`dark-dev` default for HTML; Canvas uses host theme tokens).
+3. **Outline** — Build a tight section list (see types above), in the chosen language. Drop empty sections.
 4. **Visualize** — Prefer:
    - Summary strip / KPI chips (only real numbers)
    - Comparison tables
@@ -95,7 +110,7 @@ nic-skills-artifacts/visual-report/html/
    - One diagram when it clarifies (flow / architecture / decision) via inline SVG or `nic-visual-code`
 5. **Write artifact** — HTML file or Canvas file.
 6. **Preview (HTML)** — Offer / run `nic-html-preview` when useful.
-7. **Report back** — mode + type + relative/link path + 1–3 sentence verbal summary (do not paste the whole report into chat).
+7. **Report back** — mode + type + language + relative/link path + 1–3 sentence verbal summary in the same language (do not paste the whole report into chat).
 
 ## HTML defaults
 
@@ -133,6 +148,7 @@ nic-skills-artifacts/visual-report/html/
 |----|--------|
 | Consolidate the conversation into one artifact | Dump a huge markdown table in chat as the only deliverable |
 | Default to HTML; honor canvas when asked | Put `.canvas.tsx` under random repo folders |
+| Write the report in the user's language | Default to English when the user spoke Chinese (or vice versa) |
 | Cite only real conversation facts | Fabricate pass rates or benchmark numbers |
 | Optionally compose visual-code / html-preview | Hard-require other skills to function |
 
