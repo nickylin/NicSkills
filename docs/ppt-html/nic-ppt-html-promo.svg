@@ -1,52 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
   <title id="title">nic-ppt-html promo</title>
-  <desc id="desc">Promo for project-to-PPT HTML decks with built-in high-end styles.</desc>
+  <desc id="desc">Promo banner for nic-ppt-html: project to 16:9 PPT HTML with built-in styles.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0f1419"/>
       <stop offset="55%" stop-color="#152938"/>
       <stop offset="100%" stop-color="#0f1419"/>
     </linearGradient>
-    <style type="text/css"><![CDATA[
-      .t { font-family: "PingFang SC", "Noto Sans SC", "Microsoft YaHei", "Segoe UI", Helvetica, Arial, sans-serif; }
-    ]]></style>
   </defs>
+
   <rect width="1280" height="720" fill="url(#bg)"/>
   <circle cx="160" cy="110" r="210" fill="#1a2a3a" opacity="0.55"/>
   <circle cx="1140" cy="610" r="230" fill="#1e3a2f" opacity="0.35"/>
 
-  <text class="t" x="72" y="108" fill="#5eb1ff" font-size="20" letter-spacing="3">NICSKILLS SKILL</text>
-  <text class="t" x="72" y="178" fill="#e7ecf1" font-size="58" font-weight="750">nic-ppt-html</text>
-  <text class="t" x="72" y="230" fill="#8aa0b5" font-size="24">Project / folder to 16:9 PPT HTML - brand-matched</text>
+  <text x="72" y="108" fill="#5eb1ff" font-size="20" letter-spacing="3" font-family="PingFang SC, Noto Sans SC, Microsoft YaHei, Segoe UI, Helvetica, Arial, sans-serif">NICSKILLS SKILL</text>
+  <text x="72" y="178" fill="#e7ecf1" font-size="58" font-weight="700" font-family="PingFang SC, Noto Sans SC, Microsoft YaHei, Segoe UI, Helvetica, Arial, sans-serif">nic-ppt-html</text>
+  <text x="72" y="230" fill="#8aa0b5" font-size="24" font-family="PingFang SC, Noto Sans SC, Microsoft YaHei, Segoe UI, Helvetica, Arial, sans-serif">Project / folder to 16:9 PPT HTML - brand-matched</text>
 
-  <!-- mini slide frames -->
+  <!-- four style mini-slides -->
   <g transform="translate(72,290)">
-    <rect width="280" height="158" rx="12" fill="#0a0e13" stroke="#2a3a4a" stroke-width="2"/>
+    <rect width="270" height="158" rx="12" fill="#0a0e13" stroke="#2a3a4a" stroke-width="2"/>
     <rect x="18" y="28" width="120" height="14" rx="4" fill="#3d9cf0"/>
-    <rect x="18" y="56" width="200" height="10" rx="3" fill="#2a3a4a"/>
-    <rect x="18" y="76" width="170" height="10" rx="3" fill="#2a3a4a"/>
-    <text class="t" x="18" y="140" fill="#6f879c" font-size="13">tech-dark</text>
+    <rect x="18" y="56" width="190" height="10" rx="3" fill="#2a3a4a"/>
+    <rect x="18" y="76" width="160" height="10" rx="3" fill="#2a3a4a"/>
+    <text x="18" y="140" fill="#6f879c" font-size="14" font-family="PingFang SC, Noto Sans SC, Microsoft YaHei, Segoe UI, Helvetica, Arial, sans-serif">tech-dark</text>
 
-    <rect x="310" width="280" height="158" rx="12" fill="#ffffff" stroke="#d6dee6" stroke-width="2"/>
-    <rect x="328" y="28" width="160" height="12" rx="3" fill="#051c2c"/>
-    <rect x="328" y="56" width="210" height="8" rx="3" fill="#d6dee6"/>
-    <rect x="328" y="74" width="180" height="8" rx="3" fill="#d6dee6"/>
-    <rect x="328" y="110" width="120" height="24" rx="4" fill="#f0f4f8" stroke="#2251ff" stroke-width="3"/>
-    <text class="t" x="328" y="148" fill="#4e5b66" font-size="13">consulting</text>
+    <rect x="300" width="270" height="158" rx="12" fill="#ffffff" stroke="#d6dee6" stroke-width="2"/>
+    <rect x="318" y="28" width="150" height="12" rx="3" fill="#051c2c"/>
+    <rect x="318" y="56" width="200" height="8" rx="3" fill="#d6dee6"/>
+    <rect x="318" y="74" width="170" height="8" rx="3" fill="#d6dee6"/>
+    <rect x="318" y="110" width="120" height="24" fill="#f0f4f8" stroke="#3d9cf0" stroke-width="3"/>
+    <text x="318" y="148" fill="#4e5b66" font-size="14" font-family="PingFang SC, Noto Sans SC, Microsoft YaHei, Segoe UI, Helvetica, Arial, sans-serif">consulting</text>
 
-    <rect x="620" width="280" height="158" rx="12" fill="#000000" stroke="#2c2c2e" stroke-width="2"/>
-    <text class="t" x="760" y="100" text-anchor="middle" fill="#f5f5f7" font-size="28" font-weight="700">One idea</text>
-    <text class="t" x="638" y="148" fill="#a1a1a6" font-size="13">keynote</text>
+    <rect x="600" width="270" height="158" rx="12" fill="#000000" stroke="#2c2c2e" stroke-width="2"/>
+    <text x="735" y="100" text-anchor="middle" fill="#f5f5f7" font-size="28" font-weight="700" font-family="PingFang SC, Noto Sans SC, Microsoft YaHei, Segoe UI, Helvetica, Arial, sans-serif">One idea</text>
+    <text x="618" y="148" fill="#a1a1a6" font-size="14" font-family="PingFang SC, Noto Sans SC, Microsoft YaHei, Segoe UI, Helvetica, Arial, sans-serif">keynote</text>
 
-    <rect x="930" width="250" height="158" rx="12" fill="#0a1838" stroke="rgba(255,255,255,0.12)" stroke-width="2"/>
-    <text class="t" x="1055" y="88" text-anchor="middle" fill="#22d3ee" font-size="36" font-weight="750">98%</text>
-    <text class="t" x="1055" y="118" text-anchor="middle" fill="#94a8cc" font-size="14">midnight KPI</text>
-    <text class="t" x="948" y="148" fill="#94a8cc" font-size="13">midnight</text>
+    <rect x="900" width="270" height="158" rx="12" fill="#0a1838" stroke="#2a3a5c" stroke-width="2"/>
+    <text x="1035" y="90" text-anchor="middle" fill="#22d3ee" font-size="36" font-weight="700" font-family="PingFang SC, Noto Sans SC, Microsoft YaHei, Segoe UI, Helvetica, Arial, sans-serif">98%</text>
+    <text x="1035" y="120" text-anchor="middle" fill="#94a8cc" font-size="14" font-family="PingFang SC, Noto Sans SC, Microsoft YaHei, Segoe UI, Helvetica, Arial, sans-serif">midnight KPI</text>
+    <text x="918" y="148" fill="#94a8cc" font-size="14" font-family="PingFang SC, Noto Sans SC, Microsoft YaHei, Segoe UI, Helvetica, Arial, sans-serif">midnight</text>
   </g>
 
-  <text class="t" x="72" y="520" fill="#8aa0b5" font-size="18">project-brand extracts --primary / theme tokens into --accent</text>
-  <text class="t" x="72" y="560" fill="#8aa0b5" font-size="18">Zero-dependency single file · keyboard flips · print-friendly</text>
-  <text class="t" x="72" y="620" fill="#6f879c" font-size="15">Compose: nic-visual-code diagrams · nic-html-preview open</text>
-  <text class="t" x="72" y="660" fill="#6f879c" font-size="15">Output: nic-skills-artifacts/ppt-html/</text>
+  <text x="72" y="520" fill="#8aa0b5" font-size="18" font-family="PingFang SC, Noto Sans SC, Microsoft YaHei, Segoe UI, Helvetica, Arial, sans-serif">project-brand maps repo --primary into --accent</text>
+  <text x="72" y="560" fill="#8aa0b5" font-size="18" font-family="PingFang SC, Noto Sans SC, Microsoft YaHei, Segoe UI, Helvetica, Arial, sans-serif">Zero-dependency single file / keyboard flips / print-friendly</text>
+  <text x="72" y="620" fill="#6f879c" font-size="15" font-family="PingFang SC, Noto Sans SC, Microsoft YaHei, Segoe UI, Helvetica, Arial, sans-serif">Compose: nic-visual-code diagrams + nic-html-preview</text>
+  <text x="72" y="660" fill="#6f879c" font-size="15" font-family="PingFang SC, Noto Sans SC, Microsoft YaHei, Segoe UI, Helvetica, Arial, sans-serif">Output: nic-skills-artifacts/ppt-html/</text>
 </svg>

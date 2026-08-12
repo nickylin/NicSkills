@@ -80,6 +80,10 @@ Turn a **project or folder** into a **16:9 PPT-style HTML** deck for architectur
 
 <img src="./docs/ppt-html/nic-ppt-html-promo.svg" alt="nic-ppt-html promo" width="720" />
 
+**Built-in styles**
+
+<img src="./docs/ppt-html/nic-ppt-html-styles.svg" alt="nic-ppt-html built-in styles" width="720" />
+
 | Style | Best for |
 |-------|----------|
 | `project-brand` (default) | Accent from repo CSS / tokens |
