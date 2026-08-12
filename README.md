@@ -15,7 +15,8 @@ Atomic Agent Skills for **developer tooling** — script-first, dogfood-first, i
 | [`nic-html-preview`](./skills/nic-html-preview/) | 0.2.1 | Serve local `.html` over localhost; open via Cursor / browser MCP / system browser (adaptive) |
 | [`nic-image-gen`](./skills/nic-image-gen/) | 0.1.2 | Route AI bitmap gen to Cursor `GenerateImage` or Codex `$imagegen` → `nic-skills-artifacts/image-gen/` |
 | [`nic-visual-code`](./skills/nic-visual-code/) | 0.1.4 | Mermaid / SVG / HTML visuals + icons (no image API); size/theme + no-mojibake → `nic-skills-artifacts/visual-code/` |
-| [`nic-visual-report`](./skills/nic-visual-report/) | 0.1.0 | Conversation → visual report (HTML default or Cursor Canvas): tests, comparisons, briefs |
+| [`nic-visual-report`](./skills/nic-visual-report/) | 0.1.1 | Conversation → visual report (HTML/Canvas); language follows user context |
+| [`nic-ppt-html`](./skills/nic-ppt-html/) | 0.1.0 | Project/folder → 16:9 PPT HTML deck; brand-matched styles for exec/architecture reporting |
 
 ## Featured: `nic-visual-code`
 
@@ -73,6 +74,28 @@ npx skills add nickylin/NicSkills --skill nic-visual-report
 
 More detail: [`skills/nic-visual-report/SKILL.md`](./skills/nic-visual-report/SKILL.md)
 
+## Featured: `nic-ppt-html`
+
+Turn a **project or folder** into a **16:9 PPT-style HTML** deck for architecture briefs, exec updates, or product narratives. Matches project theme colors when possible; ships built-in `consulting` / `keynote` / `midnight` / `tech-dark` skeletons.
+
+<img src="./docs/ppt-html/nic-ppt-html-promo.svg" alt="nic-ppt-html promo" width="720" />
+
+| Style | Best for |
+|-------|----------|
+| `project-brand` (default) | Accent from repo CSS / tokens |
+| `consulting` | Decision / board decks |
+| `keynote` | Sparse launch slides |
+| `midnight` | KPI / pitch energy |
+| `tech-dark` | Engineering reviews |
+
+```bash
+npx skills add nickylin/NicSkills --skill nic-ppt-html
+```
+
+Demo deck (keyboard ← →): [`skills/nic-ppt-html/examples/demo-deck.html`](./skills/nic-ppt-html/examples/demo-deck.html) — preview with [`nic-html-preview`](./skills/nic-html-preview/).
+
+More detail: [`skills/nic-ppt-html/SKILL.md`](./skills/nic-ppt-html/SKILL.md)
+
 ## Install (local / dogfood)
 
 ```bash
@@ -81,6 +104,7 @@ ln -sfn "$(pwd)/skills/nic-html-preview" ~/.cursor/skills/nic-html-preview
 ln -sfn "$(pwd)/skills/nic-image-gen" ~/.cursor/skills/nic-image-gen
 ln -sfn "$(pwd)/skills/nic-visual-code" ~/.cursor/skills/nic-visual-code
 ln -sfn "$(pwd)/skills/nic-visual-report" ~/.cursor/skills/nic-visual-report
+ln -sfn "$(pwd)/skills/nic-ppt-html" ~/.cursor/skills/nic-ppt-html
 ```
 
 Or:
@@ -90,6 +114,7 @@ npx skills add nickylin/NicSkills --skill nic-html-preview
 npx skills add nickylin/NicSkills --skill nic-image-gen
 npx skills add nickylin/NicSkills --skill nic-visual-code
 npx skills add nickylin/NicSkills --skill nic-visual-report
+npx skills add nickylin/NicSkills --skill nic-ppt-html
 ```
 
 Prefer **single-skill** install. Full-repo install loads more context than you need.
