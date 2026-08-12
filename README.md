@@ -78,11 +78,11 @@ More detail: [`skills/nic-visual-report/SKILL.md`](./skills/nic-visual-report/SK
 
 Turn a **project or folder** into a **16:9 PPT-style HTML** deck for architecture briefs, exec updates, or product narratives. Matches project theme colors when possible; ships built-in `consulting` / `keynote` / `midnight` / `tech-dark` skeletons.
 
-<img src="./docs/ppt-html/nic-ppt-html-promo.svg" alt="nic-ppt-html promo" width="720" />
+<img src="./docs/ppt-html/nic-ppt-html-promo.png" alt="nic-ppt-html promo" width="720" />
 
 **Built-in styles**
 
-<img src="./docs/ppt-html/nic-ppt-html-styles.svg" alt="nic-ppt-html built-in styles" width="720" />
+<img src="./docs/ppt-html/nic-ppt-html-styles.png" alt="nic-ppt-html built-in styles" width="720" />
 
 | Style | Best for |
 |-------|----------|
