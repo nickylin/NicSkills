@@ -4,6 +4,8 @@ Atomic Agent Skills for **developer tooling** — script-first, dogfood-first, i
 
 > Prefix: `nic-` · Positioning: [PROJECT.md](./PROJECT.md)
 
+**Language:** [English](./README.md) | [中文](./README.zh.md)
+
 <img src="./docs/promo/nicskills-promo.png" alt="NicSkills promo" width="720" />
 
 <img src="./docs/promo/nicskills-features.png" alt="NicSkills features" width="720" />

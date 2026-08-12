@@ -8,6 +8,7 @@
 | Skill prefix | `nic-` |
 | GitHub | [nickylin/NicSkills](https://github.com/nickylin/NicSkills) |
 | Install | `npx skills add nickylin/NicSkills --skill nic-xxx` |
+| Docs | [README.md](./README.md) (EN) · [README.zh.md](./README.zh.md) (中文) |
 
 ## Core scenario (v1)
 
