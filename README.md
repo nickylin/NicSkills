@@ -19,6 +19,19 @@ Atomic Agent Skills for **developer tooling** — script-first, dogfood-first, i
 | [`nic-visual-code`](./skills/nic-visual-code/) | 0.1.4 | Mermaid / SVG / HTML visuals + icons (no image API); size/theme + no-mojibake → `nic-skills-artifacts/visual-code/` |
 | [`nic-visual-report`](./skills/nic-visual-report/) | 0.1.1 | Conversation → visual report (HTML/Canvas); language follows user context |
 | [`nic-ppt-html`](./skills/nic-ppt-html/) | 0.1.0 | Project/folder → 16:9 PPT HTML deck; brand-matched styles for exec/architecture reporting |
+| [`nic-eli5`](./skills/nic-eli5/) | — | Explain a topic like I'm a 5 year old |
+
+## Featured: `nic-eli5`
+
+Explain like I'm someone who knows nothing about this topic, using a HTML artifact with big pictures and few words.
+
+<img src="./docs/eli5/nic-eli5-promo.svg" alt="nic-eli5 promo" width="720" />
+
+```bash
+npx skills add nickylin/NicSkills --skill nic-eli5
+```
+
+More detail: [`skills/nic-eli5/SKILL.md`](./skills/nic-eli5/SKILL.md)
 
 ## Featured: `nic-visual-code`
 
@@ -111,6 +124,7 @@ ln -sfn "$(pwd)/skills/nic-image-gen" ~/.cursor/skills/nic-image-gen
 ln -sfn "$(pwd)/skills/nic-visual-code" ~/.cursor/skills/nic-visual-code
 ln -sfn "$(pwd)/skills/nic-visual-report" ~/.cursor/skills/nic-visual-report
 ln -sfn "$(pwd)/skills/nic-ppt-html" ~/.cursor/skills/nic-ppt-html
+ln -sfn "$(pwd)/skills/nic-eli5" ~/.cursor/skills/nic-eli5
 ```
 
 Or:
@@ -121,6 +135,7 @@ npx skills add nickylin/NicSkills --skill nic-image-gen
 npx skills add nickylin/NicSkills --skill nic-visual-code
 npx skills add nickylin/NicSkills --skill nic-visual-report
 npx skills add nickylin/NicSkills --skill nic-ppt-html
+npx skills add nickylin/NicSkills --skill nic-eli5
 ```
 
 Prefer **single-skill** install. Full-repo install loads more context than you need.

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="560" viewBox="0 0 1280 560" role="img" aria-labelledby="title desc">
+  <title id="title">nic-eli5 page beats</title>
+  <desc id="desc">Four-beat ELI5 page: name, number, lookup, arrive.</desc>
+  <defs>
+    <style type="text/css"><![CDATA[
+      .t { font-family: "PingFang SC", "Noto Sans SC", "Microsoft YaHei", "Segoe UI", Helvetica, Arial, sans-serif; }
+    ]]></style>
+  </defs>
+  <rect width="1280" height="560" fill="#f6f1e8"/>
+  <text class="t" x="640" y="72" text-anchor="middle" fill="#d4542a" font-size="16" font-weight="700" letter-spacing="3">NIC-ELI5 BEATS</text>
+  <text class="t" x="640" y="118" text-anchor="middle" fill="#1c1915" font-size="34" font-weight="750">DNS is a phone book</text>
+
+  <rect x="48" y="168" width="280" height="300" rx="28" fill="#fffdf8" stroke="#e4d8c4"/>
+  <rect x="84" y="204" width="208" height="120" rx="16" fill="#f3e6c8"/>
+  <rect x="108" y="236" width="120" height="12" rx="6" fill="#1c1915"/>
+  <rect x="108" y="264" width="80" height="10" rx="5" fill="#c4b49a"/>
+  <text class="t" x="188" y="380" text-anchor="middle" fill="#1c1915" font-size="22" font-weight="700">You type a name</text>
+  <text class="t" x="188" y="416" text-anchor="middle" fill="#6b6258" font-size="16">nic.com</text>
+
+  <rect x="348" y="168" width="280" height="300" rx="28" fill="#fffdf8" stroke="#e4d8c4"/>
+  <rect x="392" y="204" width="192" height="120" rx="16" fill="#1c1915"/>
+  <text class="t" x="488" y="276" text-anchor="middle" fill="#fffdf8" font-size="26" font-weight="750">1.2.3.4</text>
+  <text class="t" x="488" y="380" text-anchor="middle" fill="#1c1915" font-size="22" font-weight="700">Wants a number</text>
+  <text class="t" x="488" y="416" text-anchor="middle" fill="#6b6258" font-size="16">house address</text>
+
+  <rect x="648" y="168" width="280" height="300" rx="28" fill="#fffdf8" stroke="#e4d8c4"/>
+  <rect x="688" y="210" width="72" height="100" rx="8" fill="#d4542a"/>
+  <rect x="776" y="210" width="72" height="100" rx="8" fill="#e8d7b8"/>
+  <circle cx="890" cy="258" r="22" fill="none" stroke="#2a7a6e" stroke-width="7"/>
+  <text class="t" x="788" y="380" text-anchor="middle" fill="#1c1915" font-size="22" font-weight="700">DNS looks it up</text>
+  <text class="t" x="788" y="416" text-anchor="middle" fill="#6b6258" font-size="16">name to number</text>
+
+  <rect x="948" y="168" width="284" height="300" rx="28" fill="#fffdf8" stroke="#e4d8c4"/>
+  <path d="M992 300 C1040 230, 1100 230, 1140 270 S1210 330, 1190 250" fill="none" stroke="#d4542a" stroke-width="10" stroke-linecap="round"/>
+  <rect x="1168" y="214" width="40" height="32" rx="6" fill="#2a7a6e"/>
+  <text class="t" x="1090" y="380" text-anchor="middle" fill="#1c1915" font-size="22" font-weight="700">Takes you there</text>
+  <text class="t" x="1090" y="416" text-anchor="middle" fill="#6b6258" font-size="16">page opens</text>
+</svg>

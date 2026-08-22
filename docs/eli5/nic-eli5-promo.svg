@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">nic-eli5 promo</title>
+  <desc id="desc">Official-simple eli5 plus inline SVG and auto HTML preview.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f1419"/>
+      <stop offset="55%" stop-color="#152938"/>
+      <stop offset="100%" stop-color="#0f1419"/>
+    </linearGradient>
+    <style type="text/css"><![CDATA[
+      .t { font-family: "PingFang SC", "Noto Sans SC", "Microsoft YaHei", "Segoe UI", Helvetica, Arial, sans-serif; }
+    ]]></style>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <circle cx="170" cy="110" r="210" fill="#1a2a3a" opacity="0.5"/>
+  <circle cx="1130" cy="610" r="230" fill="#3a2418" opacity="0.28"/>
+
+  <text class="t" x="72" y="108" fill="#5eb1ff" font-size="20" letter-spacing="3">NICSKILLS SKILL</text>
+  <text class="t" x="72" y="176" fill="#e7ecf1" font-size="64" font-weight="750">nic-eli5</text>
+  <text class="t" x="72" y="230" fill="#8aa0b5" font-size="24">Official-simple. Big pictures. Few words.</text>
+
+  <rect x="72" y="288" width="360" height="260" rx="24" fill="#1a2a3a" stroke="#5eb1ff" stroke-width="2"/>
+  <text class="t" x="252" y="380" text-anchor="middle" fill="#e7ecf1" font-size="26" font-weight="750">eli5 HTML</text>
+  <text class="t" x="252" y="428" text-anchor="middle" fill="#8aa0b5" font-size="16">same as anthropics</text>
+
+  <rect x="460" y="288" width="360" height="260" rx="24" fill="#1a2a3a" stroke="#5eb1ff" stroke-width="2"/>
+  <text class="t" x="640" y="380" text-anchor="middle" fill="#e7ecf1" font-size="26" font-weight="750">inline SVG</text>
+  <text class="t" x="640" y="428" text-anchor="middle" fill="#8aa0b5" font-size="16">pictures in the page</text>
+
+  <rect x="848" y="288" width="360" height="260" rx="24" fill="#d4542a"/>
+  <text class="t" x="1028" y="380" text-anchor="middle" fill="#fffdf8" font-size="26" font-weight="750">auto-open</text>
+  <text class="t" x="1028" y="428" text-anchor="middle" fill="#fffdf8" font-size="16">nic-html-preview</text>
+
+  <text class="t" x="72" y="632" fill="#8aa0b5" font-size="18">No levels. No theme menu. No extra essay.</text>
+  <text class="t" x="72" y="672" fill="#6f879c" font-size="15">UTF-8 SVG - localhost preview - never file://</text>
+</svg>

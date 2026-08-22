@@ -20,6 +20,7 @@ Turn **repo or folder facts** into a **shareable 16:9 HTML slide deck**. Instruc
 | Need | Skill |
 |------|--------|
 | Single-page report (not flips) | [`nic-visual-report`](../nic-visual-report/) |
+| Dead-simple picture explainer | [`nic-eli5`](../nic-eli5/) |
 | Extra Mermaid / SVG blocks | [`nic-visual-code`](../nic-visual-code/) |
 | Preview the deck | [`nic-html-preview`](../nic-html-preview/) |
 | AI atmosphere cover (rare) | [`nic-image-gen`](../nic-image-gen/) |

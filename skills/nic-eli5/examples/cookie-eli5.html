@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cookie 是手腕上的印章</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #f3c4a0;
+      color: #1c1915;
+      font-family: "PingFang SC", "Noto Sans SC", "Microsoft YaHei", "Segoe UI", Helvetica, Arial, sans-serif;
+    }
+    main { max-width: 1080px; margin: 0 auto; padding: 36px 20px 48px; }
+    h1 {
+      margin: 0 0 8px;
+      text-align: center;
+      font-size: clamp(44px, 7vw, 72px);
+      font-weight: 800;
+    }
+    .sub { text-align: center; margin: 0 0 28px; font-size: 22px; font-weight: 650; }
+    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    figure { margin: 0; background: #fffdf8; border-radius: 28px; padding: 12px 12px 16px; }
+    figure svg { display: block; width: 100%; height: auto; }
+    figcaption { text-align: center; margin-top: 8px; font-size: 22px; font-weight: 750; }
+    @media (max-width: 720px) { .grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Cookie</h1>
+    <p class="sub">手腕上的印章</p>
+    <div class="grid">
+      <figure>
+        <svg viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect width="320" height="200" rx="16" fill="#f3e6c8"/>
+          <circle cx="110" cy="110" r="36" fill="#1c1915"/>
+          <rect x="96" y="140" width="28" height="40" rx="8" fill="#1c1915"/>
+          <circle cx="210" cy="90" r="40" fill="#d4542a"/>
+          <text x="210" y="102" text-anchor="middle" fill="#fffdf8" font-size="28" font-weight="750" font-family="Segoe UI, Helvetica, Arial, sans-serif">ok</text>
+        </svg>
+        <figcaption>进门，盖个章</figcaption>
+      </figure>
+      <figure>
+        <svg viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect width="320" height="200" rx="16" fill="#f3e6c8"/>
+          <rect x="40" y="48" width="140" height="110" rx="16" fill="#2a7a6e"/>
+          <circle cx="230" cy="120" r="34" fill="#1c1915"/>
+          <circle cx="248" cy="108" r="16" fill="#d4542a"/>
+        </svg>
+        <figcaption>再来，店认出你</figcaption>
+      </figure>
+      <figure>
+        <svg viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect width="320" height="200" rx="16" fill="#f3e6c8"/>
+          <path d="M70 150 C110 40, 210 40, 250 150" fill="none" stroke="#2a7a9a" stroke-width="10" stroke-linecap="round"/>
+          <circle cx="160" cy="70" r="22" fill="#d4542a" opacity="0.35"/>
+        </svg>
+        <figcaption>章会过期，也能洗掉</figcaption>
+      </figure>
+    </div>
+  </main>
+</body>
+</html>

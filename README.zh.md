@@ -19,6 +19,19 @@
 | [`nic-visual-code`](./skills/nic-visual-code/) | 0.1.4 | Mermaid / SVG / HTML 出图 + 图标（无生图 API）；主题/尺寸 + 防乱码 → `nic-skills-artifacts/visual-code/` |
 | [`nic-visual-report`](./skills/nic-visual-report/) | 0.1.1 | 对话 → 可视化报告（HTML / Canvas）；文案语言跟随用户 |
 | [`nic-ppt-html`](./skills/nic-ppt-html/) | 0.1.0 | 项目/文件夹 → 16:9 PPT 风格 HTML；尽量匹配项目主题色，内置多种汇报骨架 |
+| [`nic-eli5`](./skills/nic-eli5/) | — | Explain a topic like I'm a 5 year old |
+
+## Featured: `nic-eli5`
+
+Explain like I'm someone who knows nothing about this topic, using a HTML artifact with big pictures and few words.
+
+<img src="./docs/eli5/nic-eli5-promo.svg" alt="nic-eli5 宣传图" width="720" />
+
+```bash
+npx skills add nickylin/NicSkills --skill nic-eli5
+```
+
+更多细节：[`skills/nic-eli5/SKILL.md`](./skills/nic-eli5/SKILL.md)
 
 ## Featured: `nic-visual-code`
 
@@ -111,6 +124,7 @@ ln -sfn "$(pwd)/skills/nic-image-gen" ~/.cursor/skills/nic-image-gen
 ln -sfn "$(pwd)/skills/nic-visual-code" ~/.cursor/skills/nic-visual-code
 ln -sfn "$(pwd)/skills/nic-visual-report" ~/.cursor/skills/nic-visual-report
 ln -sfn "$(pwd)/skills/nic-ppt-html" ~/.cursor/skills/nic-ppt-html
+ln -sfn "$(pwd)/skills/nic-eli5" ~/.cursor/skills/nic-eli5
 ```
 
 或：
@@ -121,6 +135,7 @@ npx skills add nickylin/NicSkills --skill nic-image-gen
 npx skills add nickylin/NicSkills --skill nic-visual-code
 npx skills add nickylin/NicSkills --skill nic-visual-report
 npx skills add nickylin/NicSkills --skill nic-ppt-html
+npx skills add nickylin/NicSkills --skill nic-eli5
 ```
 
 推荐**按单个 skill 安装**。整仓安装会塞进过多上下文。
