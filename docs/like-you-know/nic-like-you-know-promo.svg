@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">nic-like-you-know promo</title>
+  <desc id="desc">Teach a new topic by mapping it onto a strength the user already knows well. Skin is optional costume.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f1419"/>
+      <stop offset="55%" stop-color="#15241c"/>
+      <stop offset="100%" stop-color="#0f1419"/>
+    </linearGradient>
+    <style type="text/css"><![CDATA[
+      .t { font-family: "PingFang SC", "Noto Sans SC", "Microsoft YaHei", "Segoe UI", Helvetica, Arial, sans-serif; }
+    ]]></style>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <circle cx="160" cy="120" r="210" fill="#1a2a3a" opacity="0.45"/>
+  <circle cx="1140" cy="600" r="230" fill="#2a3a14" opacity="0.28"/>
+
+  <text class="t" x="72" y="100" fill="#7dcf8a" font-size="20" letter-spacing="3">NICSKILLS SKILL</text>
+  <text class="t" x="72" y="164" fill="#e7ecf1" font-size="52" font-weight="750">nic-like-you-know</text>
+  <text class="t" x="72" y="214" fill="#8aa0b5" font-size="22">Explain the new thing through a strength you already have.</text>
+
+  <rect x="72" y="268" width="340" height="220" rx="24" fill="#1a2a3a" stroke="#7dcf8a" stroke-width="2"/>
+  <text class="t" x="242" y="330" text-anchor="middle" fill="#7dcf8a" font-size="14" letter-spacing="2">STRENGTH</text>
+  <text class="t" x="242" y="378" text-anchor="middle" fill="#e7ecf1" font-size="28" font-weight="750">Android</text>
+  <text class="t" x="242" y="424" text-anchor="middle" fill="#8aa0b5" font-size="16">or kitchen / law / sport</text>
+
+  <path d="M430 378 H528" stroke="#7dcf8a" stroke-width="4"/>
+  <path d="M508 362 L528 378 L508 394" fill="none" stroke="#7dcf8a" stroke-width="4"/>
+
+  <rect x="546" y="268" width="340" height="220" rx="24" fill="#1a2a3a" stroke="#5eb1ff" stroke-width="2"/>
+  <text class="t" x="716" y="330" text-anchor="middle" fill="#5eb1ff" font-size="14" letter-spacing="2">NEW</text>
+  <text class="t" x="716" y="378" text-anchor="middle" fill="#e7ecf1" font-size="28" font-weight="750">SwiftUI</text>
+  <text class="t" x="716" y="424" text-anchor="middle" fill="#8aa0b5" font-size="16">map first - then walk</text>
+
+  <rect x="914" y="268" width="294" height="220" rx="24" fill="#c9a227"/>
+  <text class="t" x="1061" y="330" text-anchor="middle" fill="#1c1915" font-size="14" letter-spacing="2">SKIN</text>
+  <text class="t" x="1061" y="378" text-anchor="middle" fill="#1c1915" font-size="26" font-weight="750">optional</text>
+  <text class="t" x="1061" y="424" text-anchor="middle" fill="#1c1915" font-size="16">pets / anime / none</text>
+
+  <rect x="72" y="520" width="1136" height="88" rx="18" fill="#1a2a3a"/>
+  <text class="t" x="100" y="556" fill="#e7ecf1" font-size="18">Activity to View  -  Intent to NavigationStack  -  then say where it breaks</text>
+  <text class="t" x="100" y="586" fill="#8aa0b5" font-size="16">HTML default  -  Markdown on request  -  never file:// preview</text>
+
+  <text class="t" x="72" y="662" fill="#6f879c" font-size="15">Not eli5. You already know the shape. UTF-8 SVG - localhost preview.</text>
+</svg>

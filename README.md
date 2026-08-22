@@ -20,6 +20,21 @@ Atomic Agent Skills for **developer tooling** — script-first, dogfood-first, i
 | [`nic-visual-report`](./skills/nic-visual-report/) | 0.1.1 | Conversation → visual report (HTML/Canvas); language follows user context |
 | [`nic-ppt-html`](./skills/nic-ppt-html/) | 0.1.0 | Project/folder → 16:9 PPT HTML deck; brand-matched styles for exec/architecture reporting |
 | [`nic-eli5`](./skills/nic-eli5/) | — | Explain a topic like I'm a 5 year old |
+| [`nic-like-you-know`](./skills/nic-like-you-know/) | 0.1.0 | Explain a new topic via a strength you already know well; optional skin |
+
+## Featured: `nic-like-you-know`
+
+Teach the **new** thing through something you already trust — Android, a kitchen, a courtroom, a sport. Default **HTML** map + walk + where it breaks; **Markdown** if you only want the table. Optional costume (pets, anime) never replaces the map.
+
+<img src="./docs/like-you-know/nic-like-you-know-promo.svg" alt="nic-like-you-know promo" width="720" />
+
+<img src="./docs/like-you-know/nic-like-you-know-map.svg" alt="nic-like-you-know counterpart map" width="640" />
+
+```bash
+npx skills add nickylin/NicSkills --skill nic-like-you-know
+```
+
+More detail: [`skills/nic-like-you-know/SKILL.md`](./skills/nic-like-you-know/SKILL.md)
 
 ## Featured: `nic-eli5`
 
@@ -125,6 +140,7 @@ ln -sfn "$(pwd)/skills/nic-visual-code" ~/.cursor/skills/nic-visual-code
 ln -sfn "$(pwd)/skills/nic-visual-report" ~/.cursor/skills/nic-visual-report
 ln -sfn "$(pwd)/skills/nic-ppt-html" ~/.cursor/skills/nic-ppt-html
 ln -sfn "$(pwd)/skills/nic-eli5" ~/.cursor/skills/nic-eli5
+ln -sfn "$(pwd)/skills/nic-like-you-know" ~/.cursor/skills/nic-like-you-know
 ```
 
 Or:
@@ -136,6 +152,7 @@ npx skills add nickylin/NicSkills --skill nic-visual-code
 npx skills add nickylin/NicSkills --skill nic-visual-report
 npx skills add nickylin/NicSkills --skill nic-ppt-html
 npx skills add nickylin/NicSkills --skill nic-eli5
+npx skills add nickylin/NicSkills --skill nic-like-you-know
 ```
 
 Prefer **single-skill** install. Full-repo install loads more context than you need.

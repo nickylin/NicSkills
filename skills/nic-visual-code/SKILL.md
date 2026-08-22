@@ -40,6 +40,7 @@ Rendered text must stay readable. **Never ship mojibake or broken glyphs** (e.g.
 | Editable diagram / SVG art / **icon** / HTML visual | **this skill** |
 | Full conversation → report (HTML/Canvas) | [`nic-visual-report`](../nic-visual-report/) |
 | Plain-language picture explainer | [`nic-eli5`](../nic-eli5/) |
+| Teach via a strength they already know well | [`nic-like-you-know`](../nic-like-you-know/) |
 
 If the user clearly wants photoreal style or host image models, switch to `nic-image-gen`.
 

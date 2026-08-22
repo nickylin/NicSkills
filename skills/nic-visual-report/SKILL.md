@@ -46,6 +46,7 @@ Infer type from the conversation; if ambiguous, ask once or default to `session-
 |------|--------|
 | Extra Mermaid / SVG / icon blocks inside HTML | [`nic-visual-code`](../nic-visual-code/) |
 | Plain-language picture explainer (not a report) | [`nic-eli5`](../nic-eli5/) |
+| Teach via a strength they already know well | [`nic-like-you-know`](../nic-like-you-know/) |
 | Preview HTML in browser | [`nic-html-preview`](../nic-html-preview/) |
 | AI atmosphere bitmap (rare) | [`nic-image-gen`](../nic-image-gen/) |
 | Canvas SDK rules | Cursor built-in **canvas** skill — **read it before writing `.canvas.tsx`** |

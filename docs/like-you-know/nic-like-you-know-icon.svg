@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080" role="img" aria-labelledby="title desc">
+  <title id="title">nic-like-you-know icon</title>
+  <desc id="desc">Rounded app icon: two tiles joined by a bridge, known to new.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a2e22"/>
+      <stop offset="100%" stop-color="#122018"/>
+    </linearGradient>
+    <style type="text/css"><![CDATA[
+      .t { font-family: "PingFang SC", "Noto Sans SC", "Microsoft YaHei", "Segoe UI", Helvetica, Arial, sans-serif; }
+    ]]></style>
+  </defs>
+  <rect width="1080" height="1080" rx="236" fill="url(#bg)"/>
+  <rect x="168" y="300" width="300" height="360" rx="48" fill="#7dcf8a"/>
+  <rect x="612" y="300" width="300" height="360" rx="48" fill="#5eb1ff"/>
+  <rect x="430" y="452" width="220" height="56" rx="28" fill="#c9a227"/>
+  <text class="t" x="318" y="510" text-anchor="middle" fill="#122018" font-size="72" font-weight="750">A</text>
+  <text class="t" x="762" y="510" text-anchor="middle" fill="#0f1419" font-size="72" font-weight="750">B</text>
+</svg>

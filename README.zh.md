@@ -20,6 +20,21 @@
 | [`nic-visual-report`](./skills/nic-visual-report/) | 0.1.1 | 对话 → 可视化报告（HTML / Canvas）；文案语言跟随用户 |
 | [`nic-ppt-html`](./skills/nic-ppt-html/) | 0.1.0 | 项目/文件夹 → 16:9 PPT 风格 HTML；尽量匹配项目主题色，内置多种汇报骨架 |
 | [`nic-eli5`](./skills/nic-eli5/) | — | Explain a topic like I'm a 5 year old |
+| [`nic-like-you-know`](./skills/nic-like-you-know/) | 0.1.0 | 用你的擅长领域同比讲解新东西；可选皮肤 |
+
+## Featured: `nic-like-you-know`
+
+用你的**擅长领域**讲新东西 — Android、厨房、法庭、球类。默认 **HTML**：对照表 + 走几步 + 类比在哪里裂缝；只要文字就出 **Markdown**。宠物 / 动漫是可选皮肤，不能代替对照表。
+
+<img src="./docs/like-you-know/nic-like-you-know-promo.svg" alt="nic-like-you-know 宣传图" width="720" />
+
+<img src="./docs/like-you-know/nic-like-you-know-map.svg" alt="nic-like-you-know 对照表" width="640" />
+
+```bash
+npx skills add nickylin/NicSkills --skill nic-like-you-know
+```
+
+更多细节：[`skills/nic-like-you-know/SKILL.md`](./skills/nic-like-you-know/SKILL.md)
 
 ## Featured: `nic-eli5`
 
@@ -125,6 +140,7 @@ ln -sfn "$(pwd)/skills/nic-visual-code" ~/.cursor/skills/nic-visual-code
 ln -sfn "$(pwd)/skills/nic-visual-report" ~/.cursor/skills/nic-visual-report
 ln -sfn "$(pwd)/skills/nic-ppt-html" ~/.cursor/skills/nic-ppt-html
 ln -sfn "$(pwd)/skills/nic-eli5" ~/.cursor/skills/nic-eli5
+ln -sfn "$(pwd)/skills/nic-like-you-know" ~/.cursor/skills/nic-like-you-know
 ```
 
 或：
@@ -136,6 +152,7 @@ npx skills add nickylin/NicSkills --skill nic-visual-code
 npx skills add nickylin/NicSkills --skill nic-visual-report
 npx skills add nickylin/NicSkills --skill nic-ppt-html
 npx skills add nickylin/NicSkills --skill nic-eli5
+npx skills add nickylin/NicSkills --skill nic-like-you-know
 ```
 
 推荐**按单个 skill 安装**。整仓安装会塞进过多上下文。

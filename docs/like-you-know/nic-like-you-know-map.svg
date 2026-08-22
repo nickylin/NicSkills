@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">nic-like-you-know map</title>
+  <desc id="desc">Counterpart map plus a required breaks row.</desc>
+  <defs>
+    <style type="text/css"><![CDATA[
+      .t { font-family: "PingFang SC", "Noto Sans SC", "Microsoft YaHei", "Segoe UI", Helvetica, Arial, sans-serif; }
+    ]]></style>
+  </defs>
+  <rect width="1280" height="720" fill="#0f1419"/>
+  <text class="t" x="72" y="88" fill="#7dcf8a" font-size="18" letter-spacing="2">COUNTERPART MAP</text>
+  <text class="t" x="72" y="140" fill="#e7ecf1" font-size="36" font-weight="750">Strength term to new term</text>
+
+  <rect x="72" y="188" width="1136" height="72" rx="14" fill="#1a2a3a"/>
+  <text class="t" x="104" y="234" fill="#7dcf8a" font-size="20">Activity</text>
+  <text class="t" x="520" y="234" fill="#8aa0b5" font-size="20">same job</text>
+  <text class="t" x="860" y="234" fill="#5eb1ff" font-size="20">View</text>
+
+  <rect x="72" y="276" width="1136" height="72" rx="14" fill="#1a2a3a"/>
+  <text class="t" x="104" y="322" fill="#7dcf8a" font-size="20">Intent extras</text>
+  <text class="t" x="520" y="322" fill="#8aa0b5" font-size="20">carry payload</text>
+  <text class="t" x="860" y="322" fill="#5eb1ff" font-size="20">path values</text>
+
+  <rect x="72" y="364" width="1136" height="72" rx="14" fill="#1a2a3a"/>
+  <text class="t" x="104" y="410" fill="#7dcf8a" font-size="20">back stack</text>
+  <text class="t" x="520" y="410" fill="#8aa0b5" font-size="20">walk back</text>
+  <text class="t" x="860" y="410" fill="#5eb1ff" font-size="20">NavigationStack</text>
+
+  <rect x="72" y="472" width="1136" height="160" rx="18" fill="#3a2418"/>
+  <text class="t" x="104" y="528" fill="#e6a06c" font-size="18" letter-spacing="2">BREAKS (required)</text>
+  <text class="t" x="104" y="576" fill="#fffdf8" font-size="22">onActivityResult has no twin. Navigation is a stack of values, not a mailbox.</text>
+  <text class="t" x="104" y="616" fill="#c4b49a" font-size="18">Skin (pets / anime) may act this out. It must not hide the crack.</text>
+</svg>
